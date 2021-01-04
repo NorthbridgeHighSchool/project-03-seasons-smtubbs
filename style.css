@@ -1,0 +1,60 @@
+html.home{
+  background-image: url('four-seasons.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html.spring{
+  background-image: url('spring.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html.summer{
+  background-image: url('beach.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html.autumn{
+  background-image: url('autumn.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html.winter{
+  background-image: url('winter.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+a:link{
+  color: #3e5c92;
+  padding: 5pt;
+  border: 1px solid #1f6128;
+  background-color: #d4deffb4;
+  text-decoration: none;
+}
+a:visited{
+  color: #0f204e;
+}
+a:hover{
+  color:#5a328f;
+  background-color: #b0c3ffb6;
+  box-shadow: 2px 2px 1px 1px #b3b2b2; 
+}
+a.current{
+  color: #646464;
+  padding: 5pt;
+}
+a:active{
+  color:#758fbe;
+}
+li{
+  margin-bottom: 20px;
+}
