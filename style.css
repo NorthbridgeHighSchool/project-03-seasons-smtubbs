@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lato&family=Oswald&display=swap');
 .logo {
-  width: 107px;
+  width: 160px;
   float: left;
   margin-right: 10pt;
-  margin-bottom: 3pt;
-  background-color: #ffffff94;
-  padding: 3px;
+  background-color: #ffffff63;
+  
 }
 html.home{
   background-image: url('lake.jpg'); 
@@ -42,7 +41,7 @@ html.winter{
   background-attachment: fixed;
   background-size: cover;
 }
-a:link{
+nav a:link{
   color: #3e5c92;
   padding: 5pt;
   border: 1px solid #1f6128;
@@ -50,40 +49,48 @@ a:link{
   text-decoration: none;
 
 }
-a:visited{
-  color: #0f204e;
+nav a:visited{
+  color: #0d1d4b;
 }
-a:hover{
+nav a:hover{
   color:#5a328f;
   background-color: #b0c3ffb6;
   box-shadow: 2px 2px 1px 1px #b3b2b2; 
 }
-a.current{
-  color: #646464;
+nav a.current{
+  color: #858585;
   padding: 5pt;
 }
-a:active{
+nav a:active{
   color:#758fbe;
 }
-li{
+nav li{
   margin-bottom: 20px;  
   margin-top: 20px;
 }
 .textblock{
   color: #081435;
   border: 1px solid #0f204e;
-  background-color: #ffffff9a;
+  background-color: #ffffffa8;
   margin-right: 33%;
   text-align: justify;
   padding: 6px;
 }
 h1{
-  color:#ffffff;
+  color:#6ead72;
   font-family: "Oswald", serif;
-  font-size: 60pt;  
+  font-size: 50pt;  
+  margin-left: 180px;
+  background-color: #ffffffb9;
 }
 h2{
-  color:#cacaca;
+  color:#6c9775;
   font-family: "Lato", serif;
   font-size: 20pt;
+  background-color: #ffffffb9;
+  margin-left: 180px;
+}
+.cards img{
+  max-width: 230px;
+  border: 3px solid #ffffff;
 }
